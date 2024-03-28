@@ -12,14 +12,14 @@ class Theatre
    class type
    Screen
 class Bank
-Attributes                 Behaviour
+  Attributes                 Behaviour
   Account Type             Deposit
   Account Holder Name      Withdraw
   IFSC Code                Update data
   Employees                Trasfers
   Account number
 class Radio
-Attributes                Behaviour
+  Attributes                Behaviour
   Speakers                Frequency
   News                    volume
   Multiple Languages
