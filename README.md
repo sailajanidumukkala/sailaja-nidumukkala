@@ -4,6 +4,7 @@ Attributes and Behaviour
   Faculty
   Departments
   Labs
+  Play Ground
 class Theatre
 Attributes and Behaviour
    Ticket
@@ -17,6 +18,13 @@ Attributes and Behaviour
   IFSC Code
   Employees
   Account number
+class Radio
+Attributes and Behaviour
+  Speakers
+  News
+  Multiple Languages
+  Versions
+
    
     
   
