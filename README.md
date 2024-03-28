@@ -1,5 +1,5 @@
 class University
-  Attributes    and     Behaviour
+  Attributes       Behaviour
   Students              Attendance
   Faculty               Particapation Games
   Departments           Assignments
