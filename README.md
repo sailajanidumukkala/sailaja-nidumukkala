@@ -1,17 +1,17 @@
 class University
-Attributes
+Attributes and Behaviour
   Students
   Faculty
   Departments
   Labs
 class Theatre
-Attributes
+Attributes and Behaviour
    Ticket
    Seat Number
    class type
    Screen
 class Bank
-Attributes
+Attributes and Behaviour
   Account Type
   Account Holder Name
   IFSC Code
