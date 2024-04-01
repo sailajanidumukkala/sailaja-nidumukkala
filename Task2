@@ -1,1 +1,13 @@
+JAVA SE JAVA EE JAVA ME
+-->Java SE provides the essential components for Java applications: Java Virtual Machine, Java Runtime Environment, and Java Development Kit.
+  * As of writing this article, the latest version is Java 18.
+    JAVA SE- JAVA Standard Edition the Java SE platform consists of a virtual machine, development tools, deployment technologies, 
+    and other class libraries and toolkits commonly used in Java technology applications.
+JDK --> Java Development Kit
+   * It is an implementation of any of the given Java Platforms Micro Edition,Enterprise Edition,Standard Edition
+   * It is an environment of software development used for developing applets and Java applications.The JDK is platform-dependent. It means that for every different platform,
+   you require a different JDK.
+JRE --> Java Runtime Environment   
+   * It is a set of software tools designed for running other software. It is an implementation of JVM, and JRE provides a runtime environment
+   * JRE has a major responsibility for creating an environment for the execution of code.
 
