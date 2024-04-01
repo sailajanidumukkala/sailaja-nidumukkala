@@ -1,1 +1,19 @@
+public class Main { // Save class name as a file name 
+    public static void main(String[] args) 
 
+
+  class Program{
+        public static void main(String args[]){
+            System.out.println("Welcome to Java");
+        }
+    }
+//without Arguments -psvm(args)
+   class Program{
+        public static void main(){
+            System.out.println("Welcome to Java");
+        }
+    }
+
+//spvm(args)
+   
+        
