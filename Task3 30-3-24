@@ -7,6 +7,7 @@ public class Main { // Save class name as a file name
             System.out.println("Welcome to Java");
         }
     }
+O/P:- Welcome to Java
 //without Arguments -psvm(args)
    class Program{
         public static void main(){
