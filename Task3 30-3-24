@@ -21,6 +21,7 @@ O/P:- Welcome to Java
             System.out.println("Welcome to Java");
         }
     }
+O/P:- Welcome to Java
 
 //psm(args)
  class Program{
