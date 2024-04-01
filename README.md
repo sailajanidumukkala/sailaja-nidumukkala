@@ -1,15 +1,15 @@
-class University 
+University 
              //Attributes Students Faculty Departmets Labs   
              
-class Theatre 
+Theatre 
             //Attributes Ticket Seat Number class type Screen
             
       
-class Bank 
+ Bank 
           //Attributes Account Type Account Holder Name IFSC Code Employees Account number
          
           
-class Radio
+ Radio
           //Attributes Speakers News Multiple Languages Versions
           
 
