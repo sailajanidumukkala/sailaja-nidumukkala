@@ -1,4 +1,5 @@
 JAVA SE JAVA EE JAVA ME
+why it is named as JDK, J2SE, Java SE
 -->Java SE provides the essential components for Java applications: Java Virtual Machine, Java Runtime Environment, and Java Development Kit.
   * As of writing this article, the latest version is Java 18.
     JAVA SE- JAVA Standard Edition the Java SE platform consists of a virtual machine, development tools, deployment technologies, 
@@ -10,4 +11,11 @@ JDK --> Java Development Kit
 JRE --> Java Runtime Environment   
    * It is a set of software tools designed for running other software. It is an implementation of JVM, and JRE provides a runtime environment
    * JRE has a major responsibility for creating an environment for the execution of code.
+J2SE --> Java 2 Platform, Standard Edition    
+   *It consists of a wide variety of general purpose API’s (like java.lang, java.util) as well as many special purpose APIs
+   *J2SE is mainly used to create applications for Desktop environment.It consist all the basics of Java the language, variables, primitive data types,Arrays,Strings
+J2ME --> Java Platform, Micro Edition
+   *This version of Java is mainly concentrated for the applications running on embedded systems, mobiles and small devices.
+   *It included limited processing power, battery limitation, small display etc.
+
 
