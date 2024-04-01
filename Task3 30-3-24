@@ -27,4 +27,5 @@ public class Main { // Save class name as a file name
             System.out.println("Welcome to Java");
         }
     }
+//Error:- Invalid Method Declaration
         
