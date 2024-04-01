@@ -20,4 +20,11 @@ public class Main { // Save class name as a file name
             System.out.println("Welcome to Java");
         }
     }
+
+//psm(args)
+ class Program{
+        public static main(String args[]){
+            System.out.println("Welcome to Java");
+        }
+    }
         
