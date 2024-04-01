@@ -15,5 +15,9 @@ public class Main { // Save class name as a file name
     }
 
 //spvm(args)
-   
+   class Program{
+        static public void main(String args[]){
+            System.out.println("Welcome to Java");
+        }
+    }
         
