@@ -1,0 +1,6 @@
+<--TASK 1-->
+
+//float r=2.5f % 2; //0.5 --commented ----> how is this 0.5 comes as result?
+    In the expression float r = 2.5f % 2;, % is the modulo operator. It calculates the remainder when the left operand is divided by the right operand. 
+    In this 2.5f is divided by 2.
+
