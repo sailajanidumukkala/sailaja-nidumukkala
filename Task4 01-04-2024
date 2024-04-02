@@ -1,6 +1,13 @@
 <--TASK 1-->
 
 //float r=2.5f % 2; //0.5 --commented ----> how is this 0.5 comes as result?
-    In the expression float r = 2.5f % 2;, % is the modulo operator. It calculates the remainder when the left operand is divided by the right operand. 
-    In this 2.5f is divided by 2.
+    * In the expression float r = 2.5f % 2;, % is the modulo operator. It calculates the remainder when the left operand is divided by the right operand. 
+       in this 2.5f is divided by 2.
+    * When you divide 2.5f by 2, the quotient is 1 with a remainder of 0.5.
+ 
+    float r=2.5f / 2; //1.25(takes quotient as result)
+	   System.out.println(r);
+	float s=2.5f % 2; //0.5(takes remainder as result) 
+       System.out.println(s);
+  
 
