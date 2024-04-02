@@ -10,7 +10,7 @@
 	float s=2.5f % 2; //0.5(takes remainder as result) 
        System.out.println(s);
 
-                                         <--TASK 2-->
+                                           <--TASK 2-->
 Write a program for sum of digits
 23 ==> 2+3=5,54 ==> 5+4=9,33 ==> 3+3=9,19 
 ==> 1+9=10=1+0 // no need for this
@@ -38,5 +38,23 @@ Output:
   Sum of Digits of 44 -> 4 + 4 -> 8
   Sum of Digits of 81 -> 8 + 1 -> 9
   Sum of Digits of 14 -> 1 + 4 -> 5
+                                           <--TASK3-->
+c/=2, e%=2
+
+class CompoundAssignmentOperator
+{
+	public static void main(String args[])
+	{
+	int b=5;
+	int c=10;
+    b%=2;//b=b%2
+    System.out.println(b);
+    c/=2;//c=c/2
+    System.out.println(c);
+	}
+	}
+OUTPUT:
+1
+5
 
 
