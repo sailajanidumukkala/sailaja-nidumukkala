@@ -27,16 +27,16 @@ int r=14; //use only literals  (hardcoded values)
             int a = num / 10;
             int b = num % 10;
             int sum = a + b;
-            System.out.println("Sum of Digits " + num + " ==> " + a + " + " + b + " ==> " + sum);
+            System.out.println("Sum of Digits " + num + " -> " + a + " + " + b + " -> " + sum);
         }
     }
 }
 Output:
-  Sum of Digits of 23 ==> 2 + 3 ==> 5
-  Sum of Digits of 54 ==> 5 + 4 ==> 9
-  Sum of Digits of 33 ==> 3 + 3 ==> 6
-  Sum of Digits of 44 ==> 4 + 4 ==> 8
-  Sum of Digits of 81 ==> 8 + 1 ==> 9
-  Sum of Digits of 14 ==> 1 + 4 ==> 5
+  Sum of Digits of 23 -> 2 + 3 -> 5
+  Sum of Digits of 54 -> 5 + 4 -> 9
+  Sum of Digits of 33 -> 3 + 3 -> 6
+  Sum of Digits of 44 -> 4 + 4 -> 8
+  Sum of Digits of 81 -> 8 + 1 -> 9
+  Sum of Digits of 14 -> 1 + 4 -> 5
 
 
