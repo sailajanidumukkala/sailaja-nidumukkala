@@ -85,7 +85,64 @@ Finding Prime Numbers upto n. n is an integer
   }
 }
 Output:-
-1 2 3 5 7 11..
+1 2 3 5 7 11...
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**For Loop**
+
+ <--Condition 1-->
+     
+     int i=90;
+      for(;i>100;i++)
+Output:
+   The Condition is false the loop  will not execute at all, and there will be no output
+
+ <--Condition 2-->
+
+      int i=90;
+      for(;i>100;i--)
+Output:
+   The Condition is false the loop will not execute , and there will be no output
+
+ <--Condition 3-->
+      
+     int i=90;
+      for(;;i++)
+Output:
+90
+91
+92
+.
+.
+.
+.
+.
+
+ <--Condition 4-->
+      
+      int i=90;
+      for(;i<100;i++)
+Output:
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+
+ <--Condition 5-->
+     
+     int i=90;
+      for(;i<100;i+=2)
+Output:
+90
+92
+94
+96
+98
                      
