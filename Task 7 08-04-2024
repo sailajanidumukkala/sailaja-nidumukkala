@@ -1,2 +1,46 @@
-purpose of making constructor as private with example
+<--Task1-->
+ ==>purpose of making constructor as private with example
+       *We can declare a constructor as private using the pirvate access specifier,and also we cannot create an object
+       *Private constructors allow us to restrict the instantiation of a class.   
+
+<--Task2-->
+  ==>can i make constr as final - impact
+      *when you declare a variable as final, it means that the variable's value cannot be changed once it has been initialized. 
+       If you're referring to making a constructor final.
+      *That's not possible because constructors are not methods that can be overridden, hence the concept of making them final doesn't apply.
+
+<--Task3-->
+==>if a keep int nearby constr - what happens
+        int Constr() {
+		  *if a keep int nearby constr we have to  add the 
+       return statement and it will be considered as method
+      *Requires return type or change it to void
+	}
+
+<--Task4-->
+==>class emp {
+    private static int count = 0; // static variable to count the number of objects
+    public emp() {
+        count++; 
+    }
+    public static int getCount() {
+        return count;
+    }
+}
+---------------------------------------------------
+public class Main {
+    public static void main(String[] args) {
+        emp a = new emp();
+        emp b = new emp();
+        emp c = new emp();
+        emp d = new emp();
+        emp e = new emp();
+     System.out.println("Number of emp objects created: " + emp.getCount());
+    }
+}
+ Output :
+ Number of emp objects created: 5 
+
+
+
 
