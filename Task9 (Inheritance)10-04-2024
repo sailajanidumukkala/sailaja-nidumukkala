@@ -1,1 +1,44 @@
+<--Task1-->
+=>What if my child class has lesser access modifier? // private void walk()
+    *If a child class has a method with a lesser access modifier than the method it's overriding from the parent class, it would cause a compilation error
+<--Task2-->
+=>Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+  ==>StandardCalc
+    addition()
+		multiply()
+		substraction()
+		division()
+
+==>ScientificCalc extands StandardCalc
+     trigonometry()//Unique Method
+		 functions()
+     addition()
+		 multiply()
+		 substraction()
+		 division()
+
+ ==>ProgrammerCalc 
+    hex()
+		dec()
+		oct()
+		bin()
+		bitwise()
+		bitShift()
+
+<--Task3-->
+==>Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritanceTask
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
