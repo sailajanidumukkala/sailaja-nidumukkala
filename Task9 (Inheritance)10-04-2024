@@ -26,7 +26,40 @@
 		bitShift()
 
 <--Task3-->
-==>Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritanceTask
+==>Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Broadcast (Parent class)
+
+    music() {}
+    Play() {}
+    Stop() {}
+    start() {}
+    pause() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    Stop() {}
+    music cd() {} ---- unique method
+
+TV  (Child class)
+    Music() {}
+    Play() {}
+    Stop() {}
+    volume() {}
+    Video() {} ---- unique method
+    ScreenRecording() {} ---unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    Play() {}
+    Stop() {}
+    pause(){}
+    volume() {}
+    compact Disc() {} --- unique method
 
 
 
