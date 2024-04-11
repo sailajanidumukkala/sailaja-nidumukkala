@@ -63,6 +63,79 @@ DVD Player (Child class)
 
 
 
+<--Task-->
+
+	class A{
+		public void hello(){
+			System.out.println("hello");
+		}
+	}
+
+	class B extends A{
+	
+		public void call(){
+	 	super.hello();
+		}
+	}
+
+	public class TestInheritance1 {
+
+		public static void main(String[] args) {
+		
+			B obj = new B();
+		
+			obj.hello();
+		}
+	}
+	Output : hello
+		
+
+<--Task-->
+==>if i create 5 obj of Admin and manager in main methods class
+   it has to say 10 objects of employee created - once it shud be printing
+
+		class Employee{
+			static int id = 0;
+			public Employee() {
+			}	
+		}
+
+		class Admin extends Employee{
+			public Admin() {
+				this.id = id + 1;
+			}	
+		}
+
+		class Manager extends Employee{
+			public Manager() {
+				this.id = id + 1;
+			}
+		}
+
+		public class TestInheritance2 {
+
+			public static void main(String[] args) {
+		
+				Admin adm1 = new Admin();
+				Admin adm2 = new Admin();
+				Admin adm3 = new Admin();
+				Admin adm4 = new Admin();
+				Admin adm5 = new Admin();
+		
+				Manager man1 = new Manager();
+				Manager man2 = new Manager();
+				Manager man3 = new Manager();
+				Manager man4 = new Manager();
+				Manager man5 = new Manager();
+		
+				System.out.println(Employee.id);
+			}
+		}
+		Output : 10 
+			
+
+
+
 
 
 
